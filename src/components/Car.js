@@ -13,6 +13,7 @@ const AdicionadosAoCarrinho = styled.div`
   height: 50px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 `;
 
 const SomatoriaCarrinho = styled.p`
@@ -20,6 +21,7 @@ const SomatoriaCarrinho = styled.p`
   width: 100%;
   height: 50px;
   display: flex;
+  align-items: center;
 `;
 
 export default class Car extends React.Component {
